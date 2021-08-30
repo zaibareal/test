@@ -37,7 +37,7 @@
                                     ]);
                                     var options = {
                                         title: 'จำนวนงานแยกตามประเภท',
-                                        seriesType: 'bars',
+                                        is3D: true,
 
                                     };
                                     var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
@@ -45,7 +45,7 @@
                                 }
                             </script>
 
-                            <div id="chart_div" style="width: 100%; height: 100%;"></div>
+                            <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
 
                             <h3>::จำนวนงานแยกตามประเภท::</h3>
                             <table class="table table-bordered table-striped" role="grid" aria-describedby="example1_info">
