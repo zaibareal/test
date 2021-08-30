@@ -40,7 +40,7 @@
                                         seriesType: 'bars',
 
                                     };
-                                    var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+                                    var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
                                     chart.draw(data, options);
                                 }
                             </script>
